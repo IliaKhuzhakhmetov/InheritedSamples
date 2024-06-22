@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:inherited_samples/inherited_notifier_sample_1.dart';
 
 void main() {
-  runApp(MainApp());
+  runApp(const MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  MainApp({super.key});
+  const MainApp({super.key});
 
-  final screens = [
-    const InheritedNotifierSampleOne(),
+  final screens = const [
+    InheritedNotifierSampleOne(),
   ];
 
   @override
